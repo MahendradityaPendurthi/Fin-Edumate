@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #add8e6, #ffffff); /* Light blue to white gradient */
+    color: #333;
+}
+
+header {
+    background-color: #010101;
+    color: white;
+    text-align: left;
+    padding: 20px;
+}
+
+h1 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.logo {
+    width: 50px;
+    margin-right: 10px;
+}
+
+p {
+    font-size: 1.2em;
+}
+
+nav {
+    margin: 20px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #007bff;
+    font-size: 1.2em;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Scrolling image container */
+.scrolling-images {
+    width: 100%;
+    overflow-x: auto;
+    white-space: nowrap;
+    margin: 40px auto; /* Center the section */
+    padding: 10px 0;
+    background-color: #f4f4f4;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center; /* Center align the images */
+}
+
+.image-container img {
+    width: 200px; /* Adjust the size of the images */
+    height: 150px;
+    margin-right: 80px; /* Reduce spacing between images */
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+/* Add smooth scrolling */
+.scrolling-images {
+    scroll-behavior: smooth;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px 0;
+    background-color: #010101;
+    color: white;
+}
